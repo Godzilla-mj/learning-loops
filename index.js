@@ -12,17 +12,18 @@
 // para.textContent = ;
 // output.appendChild(para);
 
-output = document.querySelector('.output');
-output.innerHTML = "";
+/*
+output = document.getElementById('countdown');
 
 function countDown(){
 	i = 10
 	while (i >= 0){
-		para = document.createElement('p');
+		para = document.createElement('<p>');
 		if (i === 10){
 			para.textContent = ("Countdown " + i)
 		} else if (i === 0) {
 			para.textContent = ("Blast Off!")
+			return;
 		} else {
 			para.textContent = i
 		}
@@ -30,3 +31,5 @@ function countDown(){
 		i--;
 	}
 }
+*/
+
